@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)c1+%nz5qk4p4sra-=8v*-z7et7l)%v^mjr1bavo$@jpnjwi(_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 import os
-STATIC_ROOT = "/home/ec2-user/tasks_api/tasks_api/static"
+STATIC_ROOT = '/home/ec2-user/tasks_api/tasks_api/static'
 
 
 # Default primary key field type
