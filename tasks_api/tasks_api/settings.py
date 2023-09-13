@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 import os
-STATIC_ROOT = 'tasks_api/tasks_api/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 # Default primary key field type
