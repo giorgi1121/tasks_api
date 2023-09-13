@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 import os
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = "/home/ec2-user/tasks_api/tasks_api/static"
 
 
 # Default primary key field type
